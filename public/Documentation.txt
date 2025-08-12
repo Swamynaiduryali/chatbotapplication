@@ -1,0 +1,11 @@
+Tried to pick the icons atleast to match not like exact one
+
+Icons: 
+Hexagon : ph:hexagon-bold
+List    : ph:list
+House   : lucide:house [unable to find in the PH family]
+Globe   : ph:globe-hemisphere-west-light 
+grid    : bi:grid-1x2
+lines   : fa6-solid:lines-leaning
+Settings: ic:outline-settings
+Send    : iconoir:send
