@@ -3,7 +3,8 @@ import { useState } from "react";
 const steps = ["Query", "Sources", "Draft", "Finalize"];
 
 const stepContent = [
-  "A query is the initial request or question that the chatbot processes.",
+  // "A query is the initial request or question that the chatbot processes.",
+  "Mohan wants to test for push and pull",
   "Sources are the data or references used to provide accurate answers.",
   "A draft is the initial version of the chatbot's response.",
   "Finalize is when the chatbot gives the polished, final answer to the user.",
