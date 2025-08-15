@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Steps } from './Components/Steps'
 
 export const Learning = () => {
   return (
@@ -160,3 +161,63 @@ export const Learning = () => {
 // export const Settings: React.FC = () => (
 //   <div className="text-white text-2xl p-4">⚙️ Settings Page</div>
 // );
+
+
+// steps.tsx
+// import React, { useState } from "react";
+
+// const steps = ["Query", "Sources", "Draft", "Finalize"];
+
+// export const Steps: React.FC = () => {
+//   const [currentStep, setCurrentStep] = useState(0);
+//   const progressWidth = (currentStep / (steps.length - 1)) * 100;
+
+//   const prevStep = () => {
+//     if (currentStep > 0) {
+//       setCurrentStep(currentStep - 1);
+//     }
+//   };
+
+//   const nextStep = () => {
+//     if (currentStep < steps.length - 1) {
+//       setCurrentStep(currentStep + 1);
+//     }
+//   };
+
+//   return (
+//     <div className="bg-black text-white p-6 w-full max-w-2xl mx-auto">
+//       {/* Steps */}
+//       <div className="flex justify-between mb-2">
+//         {steps.map((step, index) => (
+//           <div
+//             key={index}
+//             className={`text-sm font-medium ${
+//               index <= currentStep ? "text-white" : "text-gray-500"
+//             }`}
+//           >
+//             {step}
+//           </div>
+//         ))}
+//       </div>
+
+//       {/* Progress bar */}
+//       <div className="relative w-full h-1 bg-gray-600 rounded-full">
+//         <div
+//           className="absolute top-0 left-0 h-1 bg-green-500 rounded-full transition-all duration-300"
+//           style={{ width: `${progressWidth}%` }}
+//         />
+//       </div>
+
+//       {/* Controls */}
+//       <div className="flex gap-4 mt-4">
+//         <button onClick={prevStep} className="px-4 py-2 bg-gray-700 rounded">
+//           Prev
+//         </button>
+//         <button onClick={nextStep} className="px-4 py-2 bg-green-600 rounded">
+//           Next
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
