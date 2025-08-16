@@ -19,6 +19,7 @@ export const Index: React.FC = () => {
     { label: "Grid", icon: "bi:grid-1x2", path: "/grid" },
     { label: "Lines", icon: "fa6-solid:lines-leaning", path: "/lines" },
     { label: "Settings", icon: "ic:outline-settings", path: "/settings" },
+    { label: "swamy-git-learning", icon: "mdi:github-circle", path: "/swamy-git-learning" }
   ];
 
   return (
