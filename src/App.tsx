@@ -7,6 +7,7 @@ import { Grid } from "./Components/Grid";
 import { Lines } from "./Components/Lines";
 import { Settings } from "./Components/Settings";
 import { Steps } from "./Components/Steps";
+import { MarmsGitLearning } from "./Components/MarmsGitLearning";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="lines" element={<Lines />} />
           <Route path="settings" element={<Settings />} />
           <Route path="blank" element={<Steps />} />
+          <Route path="marms" element={<MarmsGitLearning />} />
         </Route>
 
         {/* Example of a route without the sidebar */}
