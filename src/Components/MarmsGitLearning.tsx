@@ -8,6 +8,7 @@ export const MarmsGitLearning: React.FC = () => {
         <p>After that, we staged the changes, committed them, and pushed the code to the marms branch</p>
          <p>First, I will merge the latest changes from main into my marms branch.
                 After resolving any conflicts, I will then merge the marms branch back into main</p>
+        <p>Practicing on merge</p>
     </div>
   )
 }
