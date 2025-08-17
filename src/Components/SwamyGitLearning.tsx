@@ -11,6 +11,7 @@ export const SwamyGitLearning: React.FC = () => {
             <p>First, I will merge the latest changes from main into my swamy branch.
                 After resolving any conflicts, I will then merge the swamy branch back into main</p>
             <p>This change is part of the merge practice task.</p>
+            <p>Common change from swamy brach</p>
         </div>
     )
 }

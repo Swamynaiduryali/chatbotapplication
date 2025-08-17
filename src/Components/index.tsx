@@ -14,6 +14,7 @@ export const Index: React.FC = () => {
 
   const menuItems: MenuItem[] = [
     { label: "Home", icon: "mdi:home", path: "/home" },
+    { label: "HomePage", icon: "mdi:home-circle", path: "/homepage" },
     { label: "List", icon: "ph:list", path: "/list" },
     { label: "Global", icon: "ph:globe-hemisphere-west-light", path: "/global" },
     { label: "Grid", icon: "bi:grid-1x2", path: "/grid" },

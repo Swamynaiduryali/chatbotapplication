@@ -9,6 +9,7 @@ import { Settings } from "./Components/Settings";
 import { Steps } from "./Components/Steps";
 import { SwamyGitLearning } from "./Components/SwamyGitLearning";
 import { MarmsGitLearning } from "./Components/MarmsGitLearning";
+import { HomePage } from "./Components/HomePage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         {/* Routes with Sidebar */}
         <Route path="/" element={<Index />}>
           <Route path="home" element={<Home />} />
+          <Route path="homepage" element={<HomePage />} />
           <Route path="list" element={<List />} />
           <Route path="global" element={<Global />} />
           <Route path="grid" element={<Grid />} />
