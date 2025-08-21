@@ -7,9 +7,10 @@ import { Grid } from "./Components/Grid";
 import { Lines } from "./Components/Lines";
 import { Settings } from "./Components/Settings";
 import { Steps } from "./Components/Steps";
-import { SwamyGitLearning } from "./Components/SwamyGitLearning";
-import { MarmsGitLearning } from "./Components/MarmsGitLearning";
-import { HomePage } from "./Components/HomePage";
+import { TreeFlow } from "./Components/TreeFlow";
+// import { SwamyGitLearning } from "./Components/SwamyGitLearning";
+// import { MarmsGitLearning } from "./Components/MarmsGitLearning";
+// import { HomePage } from "./Components/HomePage";
 
 function App() {
   return (
@@ -18,15 +19,19 @@ function App() {
         {/* Routes with Sidebar */}
         <Route path="/" element={<Index />}>
           <Route path="home" element={<Home />} />
-          <Route path="homepage" element={<HomePage />} />
+          {/* <Route path="homepage" element={<HomePage />} /> */}
           <Route path="list" element={<List />} />
           <Route path="global" element={<Global />} />
           <Route path="grid" element={<Grid />} />
           <Route path="lines" element={<Lines />} />
           <Route path="settings" element={<Settings />} />
           <Route path="blank" element={<Steps />} />
-          <Route path="swamy-git-learning" element={<SwamyGitLearning />} />
-          <Route path="marms" element={<MarmsGitLearning />} />
+          <Route path="treeflow" element={<TreeFlow />} />
+          {/* Uncomment below lines if you have these components */}
+          {/* <Route path="swamy-git-learning" element={<SwamyGitLearning />} /> */}
+          {/* <Route path="marms" element={<MarmsGitLearning />} /> */}
+          {/* <Route path="swamy-git-learning" element={<SwamyGitLearning />} /> */}
+          {/* <Route path="marms" element={<MarmsGitLearning />} /> */}
         </Route>
 
         {/* Example of a route without the sidebar */}
