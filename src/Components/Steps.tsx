@@ -23,7 +23,7 @@ export const Steps: React.FC = () => {
   };
 
   return (
-    <div className="bg-black text-white h-dvh max-w-2xl mx-auto">
+    <div className="bg-black text-white h-full max-w-2xl mx-auto">
       {/* Top: Step names & progress bar */}
       <div className="p-3">
         <div className="flex justify-between mb-2">

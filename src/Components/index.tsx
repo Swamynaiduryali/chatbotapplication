@@ -14,20 +14,17 @@ export const Index: React.FC = () => {
 
   const menuItems: MenuItem[] = [
     { label: "Home", icon: "mdi:home", path: "/home" },
-    // { label: "HomePage", icon: "mdi:home-circle", path: "/homepage" },
     { label: "List", icon: "ph:list", path: "/list" },
     { label: "Global", icon: "ph:globe-hemisphere-west-light", path: "/global" },
     { label: "Grid", icon: "bi:grid-1x2", path: "/grid" },
     { label: "Lines", icon: "fa6-solid:lines-leaning", path: "/lines" },
     { label: "Settings", icon: "ic:outline-settings", path: "/settings" },
-    { label: "Steps", icon: "mdi:steps", path: "/blank" },
-    { label: "Tree Flow", icon: "mdi:tree", path: "/treeflow" },
-    // { label: "swamy-git-learning", icon: "mdi:github-circle", path: "/swamy-git-learning" },
-    // { label: "marms-git-learning", icon: "mdi:github-circle", path: "/marms" },
+    { label: "swamy-git-learning", icon: "mdi:github-circle", path: "/swamy-git-learning" },
+    { label: "marms-git-learning", icon: "mdi:github-circle", path: "/marms" },
   ];
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen"> {/* full viewport height */}
       {/* Sidebar */}
       <div className={`${collapsed ? "w-20" : "w-44"} h-full bg-gray-700 gap-3 p-4`}>
         <button
