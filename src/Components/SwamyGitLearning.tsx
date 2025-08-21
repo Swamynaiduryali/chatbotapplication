@@ -23,7 +23,7 @@ export const SwamyGitLearning: React.FC = () => {
                 After resolving any conflicts, I will then merge the swamy branch back into main</p>
             <p>This change is part of the merge practice task.</p>
             <p>Common change from swamy brach</p>
-
+            <p>A fresh start with bracnh</p>
         </div>
     )
 }
